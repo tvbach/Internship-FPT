@@ -22,6 +22,6 @@ def dele_info_user
     if UserController.delete_user(id)
       puts "User deleted! Press Enter to continue..."
     else
-      puts "User deleted! Press Enter to continue..."
+      puts "User deleted failed! Press Enter to continue"
     end
 end
