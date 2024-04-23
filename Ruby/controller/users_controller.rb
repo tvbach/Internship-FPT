@@ -23,5 +23,6 @@ class UserController
         return false
       end
     end
+
   end
 end

@@ -1,4 +1,5 @@
 require 'json'
+require 'bcrypt'
 
 class User
   attr_accessor :user_params
@@ -11,6 +12,20 @@ class User
     def search_by_id(id)
       users = read_file
       user = users.find { |user| user['id'] == id }
+    end
+
+    def search_by_email(email)
+      users = read_file
+      user = users.find { |user| user['email'] == email }
+    end
+
+    def check_password(email, password)
+      user = search_by_email(email)
+      if user
+        bcrypt_password = BCrypt::Password.new(user['password'])
+        return user['password'] == bcrypt_password
+      end
+      return false
     end
 
     def read_file

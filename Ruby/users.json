@@ -1,0 +1,38 @@
+[
+  {
+    "id": 3,
+    "name": "Tung",
+    "email": "tung@gmail.com",
+    "password": "abc123"
+  },
+  {
+    "id": 4,
+    "name": "Tung1",
+    "email": "abc@cde.def",
+    "password": "Abc1223@"
+  },
+  {
+    "id": 5,
+    "name": "TungPro",
+    "email": "abc@cde.def",
+    "password": "$2a$12$4SL9NURfBlusVBtbIED8VeGvzRzpeBmzDY8NfED9JkurBDXcHOpF."
+  },
+  {
+    "id": 6,
+    "name": "TungXX",
+    "email": "hehe@hehe.oke",
+    "password": "$2a$12$6Ntfv46bkSfpHaWNNaVlhu9hgXb087DWWZTlw/Gny/d7725k.lRIy"
+  },
+  {
+    "id": 2,
+    "name": "Tung",
+    "email": "hehe@hehe.com",
+    "password": "$2a$12$8axb4d94s0SBQDjN/kDTIe62P8t7lAASE17OI87PGy2/FDZSXCNdG"
+  },
+  {
+    "id": 1,
+    "name": "Tung",
+    "email": "tungpro@gmail.com",
+    "password": "$2a$12$eQbDyUWIBf/gKPMQuPlkP.8xwRuBni5.sJ41mwwF5oS/jusgAWNCm"
+  }
+]

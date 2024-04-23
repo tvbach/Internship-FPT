@@ -1,13 +1,15 @@
 load './view/patial/enter_info_user.rb'
 load './view/patial/update_info_user.rb'
 load './view/patial/dele_info_user.rb'
+load './view/patial/login.rb'
 
 def display_menu
   puts "Welcome to the Ruby Menu"
   puts "1. Add user"
   puts "2. Update user"
   puts "3. Delete user"
-  puts "4. Exit"
+  puts "4. Login user"
+  puts "5. Exit"
 end
 
 def display_menu_bar
@@ -27,10 +29,16 @@ def display_menu_bar
     when 2
       puts "You selected Option Update user"
       choice_info_update
+
     when 3
       puts "You selected Option Delete user"
       dele_info_user
+
     when 4
+      puts "You selected Option Login user"
+      login_user
+
+    when 5
       puts "Exiting the program. Goodbye!"
       break
 

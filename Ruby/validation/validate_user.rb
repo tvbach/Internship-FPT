@@ -13,7 +13,6 @@ class UserValidate
       unless password.match?(/[A-Z]/) && password.match?(/[!@#\$%^&*()\\-_+=~`\\[\\]{}|:;"'<>,.?]/) && password.match?(/\d/)
         return false
       end
-
       return true
     end
 
